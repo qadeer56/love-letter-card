@@ -1,4 +1,5 @@
 # 💌 Interactive Love Letter Card
+![Project Screenshot](screenshot.png)
 
 An interactive, responsive, and beautifully animated web-based Love Letter Card built with pure **HTML5**, **CSS3**, and **JavaScript**.
 
