@@ -25,7 +25,6 @@ Check out the live project here:
 * **JavaScript (ES6)** — Dynamic Functionality & Counter System
 
 ---
-
 ## 📧 Contact & Support
 Developed with ❤️ by **Muhammad Qadeer Khan**.  
-For any feedback or suggestions, feel free to reach out via GitHub.
+For any feedback, suggestions, or queries, feel free to reach out via [Email](mailto:qk179693@gmail.com).
