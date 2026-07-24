@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Premium Love Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-layer" id="heartsLayer"></div>
+    <div class="container">
+        <div class="envelope-wrapper" id="envelopeWrapper">
+            <div class="envelope-flap"></div>
+            
+            <div class="letter-paper" id="mainLetter">
+                <!-- MAIN TEXT LAYOUT CONTAINER -->
+                <div class="letter-content-wrapper">
+                    <div class="paper-header">For My Precious Love:</div>
+                    <div class="letter-scroller">
+                        <b>My Dearest Love,</b><br><br>
+                        From the moment you walked into my life, everything became brighter and more beautiful. Every single day spent with you feels like a blessing.<br><br>
+                        You are my favorite thought, my happiest place, and the most precious person to me. I can’t imagine my future without your love and light.<br><br>
+                        <i>Will you keep walking this beautiful path of love with me forever?</i>
+                    </div>
+                    <div class="live-counter-box">
+                        <div class="counter-title">My love for you started...</div>
+                        <div class="counter-timer" id="liveTimer">000 Days, 00 Hours, 00 Minutes, 00 Seconds</div>
+                    </div>
+                    <div class="decision-block">
+                        <div class="decision-title">Will you accept my request?</div>
+                        <div class="btn-wrapper">
+                            <button class="card-btn btn-confirm" id="yesBtn">Yes</button>
+                            <button class="card-btn btn-reject" id="noBtn">Not now</button>
+                        </div>
+                        <div class="signature-text">— Yours Forever</div>
+                    </div>
+                </div>
+
+                <!-- INNER LAYERED FINAL SCREEN -->
+                <div class="final-screen" id="finalView">
+                    <div class="final-icon" id="finalIcon">❤️</div>
+                    <h2 id="finalTitle">You Made My Day!</h2>
+                    <p id="finalText">You just made my world complete. I promise to cherish you and love you forever.</p>
+                    <button class="btn-back" id="backBtn">Back</button>
+                </div>
+            </div>
+
+            <div class="envelope-front"></div>
+            <div class="envelope-side"></div>
+            <div class="envelope-side-right"></div>
+        </div>
+        <div class="control-panel">
+            <button class="action-trigger trigger-open" id="openAction">Open</button>
+            <button class="action-trigger trigger-close" id="closeAction">Close</button>
+        </div>
+    </div>
+
+    <audio id="loveMusic" src="https://files.catbox.moe/milcgo.mp3" preload="auto" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
